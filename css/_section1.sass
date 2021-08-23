@@ -1,0 +1,87 @@
+.section1
+    width: 90vw
+    height: auto
+    display: flex
+    margin: auto
+    margin-top: 9rem
+    border-radius: 20px
+    flex-direction: column
+    background: #f9f9f9
+    justify-content: center
+    .form
+        display: flex
+        flex-wrap: wrap
+        width: 90vw
+        height: auto
+        border-radius: 20px 20px 20px 20px
+        background: #ffffffb3
+        .datos
+            display: flex
+            justify-content: flex-start
+            align-items: flex-start
+            flex-direction: column
+            background: #fff
+            padding: 30px
+            border-radius: 20px 20px 20px 20px
+            width: 45vw
+            height: 100vh
+            .group-input
+                margin-top: 1rem
+                display: flex
+                justify-content: space-between
+                align-content: center
+                color: black
+                width: 100%
+                .label
+                    font-size: 1.2rem
+                    display: flex
+                    align-self: flex-start
+                .input
+                    display: flex
+                    align-self: flex-end
+                    width: 16rem
+                    padding: 7px
+                    border-radius: 7px
+                    border: 2px solid #000
+                .textarea
+                    resize: none
+                    padding: 10px
+                    width: 16rem
+                    height: 6rem
+                    border: 2px solid #000
+                    border-radius: 7px
+                .button
+                    margin: auto
+                    margin-top: 1rem
+                    width: 90%
+                    color: white
+                    border-radius: 5px
+                    font-weight: bold
+                    border: 1px solid #33333300
+                    padding: 10px
+                    background: #0e781a
+                    transition: .7s
+                    cursor: pointer
+                    &:hover
+                        background: #62d26f
+        .citas
+            display: flex
+            justify-content: flex-start
+            align-items: flex-start
+            flex-direction: column
+            background: #1f309229
+            width: 45vw
+            height: 100vh
+            border-radius: 20px 20px 20px 20px
+            .cita
+                width: 100%
+                height: 20vh
+                background: #1d9e9380
+
+@media screen and (max-width: 800px)
+    .section1
+        .form
+            .datos
+                width: 100%
+            .citas
+                width: 100%                
