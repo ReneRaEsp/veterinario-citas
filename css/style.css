@@ -8,7 +8,6 @@ body {
   justify-content: center;
   flex-direction: column;
   overflow-x: hidden;
-  height: 140vh;
   background-image: url("../img/huellas.png");
   background-attachment: fixed;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif; }
@@ -27,9 +26,6 @@ body {
   right: 14vw;
   width: 20rem; }
 
-@media screen and (max-width: 800px) {
-  .gato-perro {
-    display: none; } }
 .section1 {
   width: 90vw;
   height: auto;
