@@ -165,7 +165,7 @@ const eliminarCita = (e)=>{
     let id = e.target.parentNode.parentNode.id;
     let borrar;
     citas.forEach(cita=>{
-        cita.id == id ? citas.splice(id, 1) : null
+        cita.id == id ? citas.splice(id, 1) : null;
         borrar = document.getElementById(cita.id);
         cita.id == id ? borrar.remove() : null
         cita.id == id ? console.log(borrar) : null;

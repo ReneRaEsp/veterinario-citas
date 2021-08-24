@@ -8,6 +8,7 @@ body {
   justify-content: center;
   flex-direction: column;
   overflow-x: hidden;
+  padding-bottom: 40px;
   background-image: url("../img/huellas.png");
   background-attachment: fixed;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif; }
@@ -15,7 +16,7 @@ body {
 .title {
   display: flex;
   align-self: center;
-  margin-top: 1rem;
+  margin-top: 2rem;
   margin-bottom: 1rem;
   color: black;
   text-align: center; }
@@ -52,7 +53,7 @@ body {
       padding: 30px;
       border-radius: 20px 20px 20px 20px;
       width: 45vw;
-      height: 100vh; }
+      height: 110vh; }
       .section1 .form .datos .group-input {
         margin-top: 1rem;
         display: flex;
@@ -110,7 +111,7 @@ body {
       overflow-y: auto;
       background: #1f309229;
       width: 45vw;
-      height: 100vh;
+      height: 110vh;
       border-radius: 20px 20px 20px 20px; }
       .section1 .form .citas .cita {
         display: flex;
