@@ -11,70 +11,73 @@
     <img class="gato-perro" src="img/perrogato.png" alt="">
     <section class="section1">
         <h1 class="title">ADMINISTRADOR DE PACIENTES DE VETERINARIA</h1>
-        <form class="form" action="">
+        <form id="nueva-cita" class="form" action="">
             <div class="datos">
                 <h2 class="title">Datos del paciente</h2>
                 <div class="group-input">
-                    <label class="label" for="">Nombre de mascota: </label>
-                    <input placeholder="Nombre de mascota" class="input" type="text">
+                    <label class="label" for="mascota">Nombre de mascota: </label>
+                    <input value="" id="mascota" name="mascota"
+                    placeholder="Nombre de mascota" 
+                    class="input" type="text">
                 </div>
                 <div class="group-input">
-                    <label class="label" for="">Especie: </label>
-                    <select class="input" name="select" id="">
+                    <label class="label" for="especie">Especie: </label>
+                    <select id="especie" class="input" name="especie">
                         <option class="option" value="perro">Perro</option>
                         <option class="option" value="gato">Gato</option>
                     </select>
                 </div>
                 <div class="group-input">
-                    <label class="label" for="">Propietario: </label>
-                    <input placeholder="Nombre del propietario" class="input" type="text">
+                    <label class="label" for="propietario">Propietario: </label>
+                    <input id="propietario" placeholder="Nombre del propietario" 
+                    class="input" type="text" name="propietario">
                 </div>
                 <div class="group-input">
-                    <label class="label" for="">Telefono: </label>
-                    <input placeholder="Número de télefono" class="input" type="text">
+                    <label class="label" for="telefono">Telefono: </label>
+                    <input id="telefono" placeholder="Número de télefono" 
+                    class="input" type="text" name="telefono">
                 </div>
                 <div class="group-input">
-                    <label class="label" for="">Fecha: </label>
-                    <input placeholder="Nombre de mascota" class="input" type="date">
+                    <label class="label" for="fecha">Fecha: </label>
+                    <input id="fecha" class="input" name="fecha" type="date">
                 </div>
                 <div class="group-input">
-                    <label class="label" for="">Hora: </label>
-                    <input placeholder="Nombre de mascota" class="input" type="time">
+                    <label class="label" for="hora">Hora: </label>
+                    <input id="hora" name="hora" class="input" type="time">
                 </div>
                 <div class="group-input">
-                    <label class="label" for="">Descripción: </label>
+                    <label class="label" for="descripcion">Descripción: </label>
                     <textarea class="textarea" 
-                    name="" id="" cols="30" 
+                    name="descripcion" id="descripcion" cols="30" 
                     placeholder="Motivo por el cual se agenda la cita" rows="7"></textarea>
                 </div>
                 <div class="group-input">
-                    <button class="button">
+                    <p id="crear" class="button">
                         CREAR CITA
-                    </button>
+                    </p>
                 </div>
             </div>
-            <div class="citas">
+            <div id="citas" class="citas">
                 <h2 class="title">Citas</h2>
-                <div class="cita">
-                    <h3 class="mascota">Rockruff</h3>
+                <!--<div id="1" class="cita">
+                    <h3 class="data-mascota">Rockruff</h3>
                     <div class="data">
-                        <p>Especie: <span>Perro</span></p>
-                        <p>Propietario: <span>Rene</span></p>
-                        <p>Telefono: <span>98387232</span></p>
-                        <p>Fecha: <span>31/08/1994</span></p>
-                        <p>Hora: <span>12:30pm</span></p>
-                        <p>Descripcion: <span>jjjshgtuebnkjdm</span></p>
+                        <p>Especie: <span class="data-especie">Perro</span></p>
+                        <p>Propietario: <span class="data-propietario">Rene</span></p>
+                        <p>Telefono: <span class="data-telefono">98387232</span></p>
+                        <p>Fecha: <span class="data-fecha">31/08/1994</span></p>
+                        <p>Hora: <span class="data-hora">12:30pm</span></p>
+                        <p>Descripcion: <span class="data-descripcion">jjjshgtuebnkjdm</span></p>
                     </div>     
                     <div class="botones">
-                        <button class="editar">
+                        <p class="editar">
                             Editar
-                        </button>
-                        <button class="eliminar">
+                        </p>
+                        <p class="eliminar">
                             Eliminar
-                        </button>
+                        </p>
                     </div>               
-                </div>
-                
+                </div>-->
             </div>
         </form>
     </section>
