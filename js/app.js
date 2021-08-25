@@ -136,7 +136,7 @@ const crearCita = ()=>{
     data.append(descripcion);
 
     //Assambling botones
-    botones.append(editar);
+    //botones.append(editar);
     botones.append(eliminar);
 
     //Assambling cita    
@@ -160,7 +160,7 @@ const crearCita = ()=>{
         hora:'',
         descripcion:''
     };
-}
+};
 const eliminarCita = (e)=>{
     let id = e.target.parentNode.parentNode.id;
     let borrar;
@@ -170,6 +170,8 @@ const eliminarCita = (e)=>{
         cita.id == id ? borrar.remove() : null
         cita.id == id ? console.log(borrar) : null;
     });
+};
+const editarCita = (e)=>{
+    console.log('pene');
 }
-
 eventListeners();

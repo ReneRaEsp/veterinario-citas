@@ -13,6 +13,26 @@ body {
   background-attachment: fixed;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif; }
 
+::-webkit-scrollbar {
+  background: #6fceb8b1;
+  width: 12px;
+  order-radius: 0.3rem; }
+  ::-webkit-scrollbar:hover {
+    background: #4ba284a8; }
+
+::-webkit-scrollbar-track {
+  background: gba(20, 128, 154, 0.6); }
+
+::-webkit-scrollbar-thumb {
+  background: #18573c9e;
+  width: 1px;
+  border-radius: 0.3rem;
+  border: 1px solid #90e8e6; }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #3b9d8dc4; }
+  ::-webkit-scrollbar-thumb:active {
+    background: #43a6bccc; }
+
 .title {
   display: flex;
   align-self: center;
